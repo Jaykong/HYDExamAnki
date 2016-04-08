@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08A1DC7B1CB79C3D00B26FC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A1DC7A1CB79C3D00B26FC2 /* main.m */; };
+		08A1DC7E1CB79C3D00B26FC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A1DC7D1CB79C3D00B26FC2 /* AppDelegate.m */; };
+		08A1DC811CB79C3D00B26FC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A1DC801CB79C3D00B26FC2 /* ViewController.m */; };
+		08A1DC841CB79C3D00B26FC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A1DC821CB79C3D00B26FC2 /* Main.storyboard */; };
+		08A1DC861CB79C3D00B26FC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A1DC851CB79C3D00B26FC2 /* Assets.xcassets */; };
+		08A1DC891CB79C3D00B26FC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A1DC871CB79C3D00B26FC2 /* LaunchScreen.storyboard */; };
+		08A1DC941CB79C3D00B26FC2 /* HYDExamAnkiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A1DC931CB79C3D00B26FC2 /* HYDExamAnkiTests.m */; };
+		08A1DC9F1CB79C3E00B26FC2 /* HYDExamAnkiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A1DC9E1CB79C3E00B26FC2 /* HYDExamAnkiUITests.m */; };
+		08A1DCAF1CB7A18500B26FC2 /* EAPaperInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A1DCAE1CB7A18500B26FC2 /* EAPaperInfoViewController.m */; };
+		08A1DCB21CB7A1B300B26FC2 /* EABookmarkQuestionViewController EABookmarkQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A1DCB11CB7A1B300B26FC2 /* EABookmarkQuestionViewController EABookmarkQuestionViewController.m */; };
+		08A1DCB51CB7A1C500B26FC2 /* EAWrongQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A1DCB41CB7A1C500B26FC2 /* EAWrongQuestionViewController.m */; };
+		08A1DCB81CB7A1D700B26FC2 /* EAFlashCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A1DCB71CB7A1D700B26FC2 /* EAFlashCardViewController.m */; };
+		08A1DCBB1CB7A1EA00B26FC2 /* EAFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A1DCBA1CB7A1EA00B26FC2 /* EAFeedbackViewController.m */; };
+		08A1DCBE1CB7A1FB00B26FC2 /* EAAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A1DCBD1CB7A1FB00B26FC2 /* EAAboutViewController.m */; };
+		08A1DCC11CB7A20B00B26FC2 /* EAShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A1DCC01CB7A20B00B26FC2 /* EAShareViewController.m */; };
+		08A1DCC41CB7A22800B26FC2 /* EAImportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A1DCC31CB7A22800B26FC2 /* EAImportViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08A1DC901CB79C3D00B26FC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08A1DC6E1CB79C3D00B26FC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08A1DC751CB79C3D00B26FC2;
+			remoteInfo = HYDExamAnki;
+		};
+		08A1DC9B1CB79C3E00B26FC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08A1DC6E1CB79C3D00B26FC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08A1DC751CB79C3D00B26FC2;
+			remoteInfo = HYDExamAnki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08A1DC761CB79C3D00B26FC2 /* HYDExamAnki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYDExamAnki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A1DC7A1CB79C3D00B26FC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08A1DC7C1CB79C3D00B26FC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08A1DC7D1CB79C3D00B26FC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08A1DC7F1CB79C3D00B26FC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		08A1DC801CB79C3D00B26FC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		08A1DC831CB79C3D00B26FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08A1DC851CB79C3D00B26FC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08A1DC881CB79C3D00B26FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08A1DC8A1CB79C3D00B26FC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08A1DC8F1CB79C3D00B26FC2 /* HYDExamAnkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYDExamAnkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A1DC931CB79C3D00B26FC2 /* HYDExamAnkiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYDExamAnkiTests.m; sourceTree = "<group>"; };
+		08A1DC951CB79C3D00B26FC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08A1DC9A1CB79C3E00B26FC2 /* HYDExamAnkiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYDExamAnkiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A1DC9E1CB79C3E00B26FC2 /* HYDExamAnkiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYDExamAnkiUITests.m; sourceTree = "<group>"; };
+		08A1DCA01CB79C3E00B26FC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08A1DCAD1CB7A18500B26FC2 /* EAPaperInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAPaperInfoViewController.h; sourceTree = "<group>"; };
+		08A1DCAE1CB7A18500B26FC2 /* EAPaperInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAPaperInfoViewController.m; sourceTree = "<group>"; };
+		08A1DCB01CB7A1B300B26FC2 /* EABookmarkQuestionViewController EABookmarkQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EABookmarkQuestionViewController EABookmarkQuestionViewController.h"; sourceTree = "<group>"; };
+		08A1DCB11CB7A1B300B26FC2 /* EABookmarkQuestionViewController EABookmarkQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EABookmarkQuestionViewController EABookmarkQuestionViewController.m"; sourceTree = "<group>"; };
+		08A1DCB31CB7A1C500B26FC2 /* EAWrongQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAWrongQuestionViewController.h; sourceTree = "<group>"; };
+		08A1DCB41CB7A1C500B26FC2 /* EAWrongQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAWrongQuestionViewController.m; sourceTree = "<group>"; };
+		08A1DCB61CB7A1D700B26FC2 /* EAFlashCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAFlashCardViewController.h; sourceTree = "<group>"; };
+		08A1DCB71CB7A1D700B26FC2 /* EAFlashCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAFlashCardViewController.m; sourceTree = "<group>"; };
+		08A1DCB91CB7A1EA00B26FC2 /* EAFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAFeedbackViewController.h; sourceTree = "<group>"; };
+		08A1DCBA1CB7A1EA00B26FC2 /* EAFeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAFeedbackViewController.m; sourceTree = "<group>"; };
+		08A1DCBC1CB7A1FB00B26FC2 /* EAAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAAboutViewController.h; sourceTree = "<group>"; };
+		08A1DCBD1CB7A1FB00B26FC2 /* EAAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAAboutViewController.m; sourceTree = "<group>"; };
+		08A1DCBF1CB7A20B00B26FC2 /* EAShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAShareViewController.h; sourceTree = "<group>"; };
+		08A1DCC01CB7A20B00B26FC2 /* EAShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAShareViewController.m; sourceTree = "<group>"; };
+		08A1DCC21CB7A22800B26FC2 /* EAImportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAImportViewController.h; sourceTree = "<group>"; };
+		08A1DCC31CB7A22800B26FC2 /* EAImportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAImportViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08A1DC731CB79C3D00B26FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A1DC8C1CB79C3D00B26FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A1DC971CB79C3E00B26FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08A1DC6D1CB79C3D00B26FC2 = {
+			isa = PBXGroup;
+			children = (
+				08A1DC781CB79C3D00B26FC2 /* HYDExamAnki */,
+				08A1DC921CB79C3D00B26FC2 /* HYDExamAnkiTests */,
+				08A1DC9D1CB79C3E00B26FC2 /* HYDExamAnkiUITests */,
+				08A1DC771CB79C3D00B26FC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08A1DC771CB79C3D00B26FC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08A1DC761CB79C3D00B26FC2 /* HYDExamAnki.app */,
+				08A1DC8F1CB79C3D00B26FC2 /* HYDExamAnkiTests.xctest */,
+				08A1DC9A1CB79C3E00B26FC2 /* HYDExamAnkiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08A1DC781CB79C3D00B26FC2 /* HYDExamAnki */ = {
+			isa = PBXGroup;
+			children = (
+				08A1DCAC1CB7A15500B26FC2 /* ViewControllers */,
+				08A1DC7C1CB79C3D00B26FC2 /* AppDelegate.h */,
+				08A1DC7D1CB79C3D00B26FC2 /* AppDelegate.m */,
+				08A1DC7F1CB79C3D00B26FC2 /* ViewController.h */,
+				08A1DC801CB79C3D00B26FC2 /* ViewController.m */,
+				08A1DC821CB79C3D00B26FC2 /* Main.storyboard */,
+				08A1DC851CB79C3D00B26FC2 /* Assets.xcassets */,
+				08A1DC871CB79C3D00B26FC2 /* LaunchScreen.storyboard */,
+				08A1DC8A1CB79C3D00B26FC2 /* Info.plist */,
+				08A1DC791CB79C3D00B26FC2 /* Supporting Files */,
+			);
+			path = HYDExamAnki;
+			sourceTree = "<group>";
+		};
+		08A1DC791CB79C3D00B26FC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08A1DC7A1CB79C3D00B26FC2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08A1DC921CB79C3D00B26FC2 /* HYDExamAnkiTests */ = {
+			isa = PBXGroup;
+			children = (
+				08A1DC931CB79C3D00B26FC2 /* HYDExamAnkiTests.m */,
+				08A1DC951CB79C3D00B26FC2 /* Info.plist */,
+			);
+			path = HYDExamAnkiTests;
+			sourceTree = "<group>";
+		};
+		08A1DC9D1CB79C3E00B26FC2 /* HYDExamAnkiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08A1DC9E1CB79C3E00B26FC2 /* HYDExamAnkiUITests.m */,
+				08A1DCA01CB79C3E00B26FC2 /* Info.plist */,
+			);
+			path = HYDExamAnkiUITests;
+			sourceTree = "<group>";
+		};
+		08A1DCAC1CB7A15500B26FC2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				08A1DCAD1CB7A18500B26FC2 /* EAPaperInfoViewController.h */,
+				08A1DCAE1CB7A18500B26FC2 /* EAPaperInfoViewController.m */,
+				08A1DCB01CB7A1B300B26FC2 /* EABookmarkQuestionViewController EABookmarkQuestionViewController.h */,
+				08A1DCB11CB7A1B300B26FC2 /* EABookmarkQuestionViewController EABookmarkQuestionViewController.m */,
+				08A1DCB31CB7A1C500B26FC2 /* EAWrongQuestionViewController.h */,
+				08A1DCB41CB7A1C500B26FC2 /* EAWrongQuestionViewController.m */,
+				08A1DCB61CB7A1D700B26FC2 /* EAFlashCardViewController.h */,
+				08A1DCB71CB7A1D700B26FC2 /* EAFlashCardViewController.m */,
+				08A1DCB91CB7A1EA00B26FC2 /* EAFeedbackViewController.h */,
+				08A1DCBA1CB7A1EA00B26FC2 /* EAFeedbackViewController.m */,
+				08A1DCBC1CB7A1FB00B26FC2 /* EAAboutViewController.h */,
+				08A1DCBD1CB7A1FB00B26FC2 /* EAAboutViewController.m */,
+				08A1DCBF1CB7A20B00B26FC2 /* EAShareViewController.h */,
+				08A1DCC01CB7A20B00B26FC2 /* EAShareViewController.m */,
+				08A1DCC21CB7A22800B26FC2 /* EAImportViewController.h */,
+				08A1DCC31CB7A22800B26FC2 /* EAImportViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08A1DC751CB79C3D00B26FC2 /* HYDExamAnki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08A1DCA31CB79C3E00B26FC2 /* Build configuration list for PBXNativeTarget "HYDExamAnki" */;
+			buildPhases = (
+				08A1DC721CB79C3D00B26FC2 /* Sources */,
+				08A1DC731CB79C3D00B26FC2 /* Frameworks */,
+				08A1DC741CB79C3D00B26FC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYDExamAnki;
+			productName = HYDExamAnki;
+			productReference = 08A1DC761CB79C3D00B26FC2 /* HYDExamAnki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08A1DC8E1CB79C3D00B26FC2 /* HYDExamAnkiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08A1DCA61CB79C3E00B26FC2 /* Build configuration list for PBXNativeTarget "HYDExamAnkiTests" */;
+			buildPhases = (
+				08A1DC8B1CB79C3D00B26FC2 /* Sources */,
+				08A1DC8C1CB79C3D00B26FC2 /* Frameworks */,
+				08A1DC8D1CB79C3D00B26FC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08A1DC911CB79C3D00B26FC2 /* PBXTargetDependency */,
+			);
+			name = HYDExamAnkiTests;
+			productName = HYDExamAnkiTests;
+			productReference = 08A1DC8F1CB79C3D00B26FC2 /* HYDExamAnkiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08A1DC991CB79C3E00B26FC2 /* HYDExamAnkiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08A1DCA91CB79C3E00B26FC2 /* Build configuration list for PBXNativeTarget "HYDExamAnkiUITests" */;
+			buildPhases = (
+				08A1DC961CB79C3E00B26FC2 /* Sources */,
+				08A1DC971CB79C3E00B26FC2 /* Frameworks */,
+				08A1DC981CB79C3E00B26FC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08A1DC9C1CB79C3E00B26FC2 /* PBXTargetDependency */,
+			);
+			name = HYDExamAnkiUITests;
+			productName = HYDExamAnkiUITests;
+			productReference = 08A1DC9A1CB79C3E00B26FC2 /* HYDExamAnkiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08A1DC6E1CB79C3D00B26FC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = hongyandong;
+				TargetAttributes = {
+					08A1DC751CB79C3D00B26FC2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7T3HV6ZTEH;
+					};
+					08A1DC8E1CB79C3D00B26FC2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7T3HV6ZTEH;
+						TestTargetID = 08A1DC751CB79C3D00B26FC2;
+					};
+					08A1DC991CB79C3E00B26FC2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7T3HV6ZTEH;
+						TestTargetID = 08A1DC751CB79C3D00B26FC2;
+					};
+				};
+			};
+			buildConfigurationList = 08A1DC711CB79C3D00B26FC2 /* Build configuration list for PBXProject "HYDExamAnki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08A1DC6D1CB79C3D00B26FC2;
+			productRefGroup = 08A1DC771CB79C3D00B26FC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08A1DC751CB79C3D00B26FC2 /* HYDExamAnki */,
+				08A1DC8E1CB79C3D00B26FC2 /* HYDExamAnkiTests */,
+				08A1DC991CB79C3E00B26FC2 /* HYDExamAnkiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08A1DC741CB79C3D00B26FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A1DC891CB79C3D00B26FC2 /* LaunchScreen.storyboard in Resources */,
+				08A1DC861CB79C3D00B26FC2 /* Assets.xcassets in Resources */,
+				08A1DC841CB79C3D00B26FC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A1DC8D1CB79C3D00B26FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A1DC981CB79C3E00B26FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08A1DC721CB79C3D00B26FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A1DCB51CB7A1C500B26FC2 /* EAWrongQuestionViewController.m in Sources */,
+				08A1DC811CB79C3D00B26FC2 /* ViewController.m in Sources */,
+				08A1DCBE1CB7A1FB00B26FC2 /* EAAboutViewController.m in Sources */,
+				08A1DC7E1CB79C3D00B26FC2 /* AppDelegate.m in Sources */,
+				08A1DCC11CB7A20B00B26FC2 /* EAShareViewController.m in Sources */,
+				08A1DCB21CB7A1B300B26FC2 /* EABookmarkQuestionViewController EABookmarkQuestionViewController.m in Sources */,
+				08A1DC7B1CB79C3D00B26FC2 /* main.m in Sources */,
+				08A1DCB81CB7A1D700B26FC2 /* EAFlashCardViewController.m in Sources */,
+				08A1DCC41CB7A22800B26FC2 /* EAImportViewController.m in Sources */,
+				08A1DCAF1CB7A18500B26FC2 /* EAPaperInfoViewController.m in Sources */,
+				08A1DCBB1CB7A1EA00B26FC2 /* EAFeedbackViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A1DC8B1CB79C3D00B26FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A1DC941CB79C3D00B26FC2 /* HYDExamAnkiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A1DC961CB79C3E00B26FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A1DC9F1CB79C3E00B26FC2 /* HYDExamAnkiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08A1DC911CB79C3D00B26FC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08A1DC751CB79C3D00B26FC2 /* HYDExamAnki */;
+			targetProxy = 08A1DC901CB79C3D00B26FC2 /* PBXContainerItemProxy */;
+		};
+		08A1DC9C1CB79C3E00B26FC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08A1DC751CB79C3D00B26FC2 /* HYDExamAnki */;
+			targetProxy = 08A1DC9B1CB79C3E00B26FC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08A1DC821CB79C3D00B26FC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08A1DC831CB79C3D00B26FC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08A1DC871CB79C3D00B26FC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08A1DC881CB79C3D00B26FC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08A1DCA11CB79C3E00B26FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08A1DCA21CB79C3E00B26FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08A1DCA41CB79C3E00B26FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYDExamAnki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.universial.hyd.HYDExamAnki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		08A1DCA51CB79C3E00B26FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYDExamAnki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.universial.hyd.HYDExamAnki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		08A1DCA71CB79C3E00B26FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HYDExamAnkiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.universial.hyd.HYDExamAnkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYDExamAnki.app/HYDExamAnki";
+			};
+			name = Debug;
+		};
+		08A1DCA81CB79C3E00B26FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HYDExamAnkiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.universial.hyd.HYDExamAnkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYDExamAnki.app/HYDExamAnki";
+			};
+			name = Release;
+		};
+		08A1DCAA1CB79C3E00B26FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HYDExamAnkiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.universial.hyd.HYDExamAnkiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYDExamAnki;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		08A1DCAB1CB79C3E00B26FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HYDExamAnkiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.universial.hyd.HYDExamAnkiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYDExamAnki;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08A1DC711CB79C3D00B26FC2 /* Build configuration list for PBXProject "HYDExamAnki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A1DCA11CB79C3E00B26FC2 /* Debug */,
+				08A1DCA21CB79C3E00B26FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08A1DCA31CB79C3E00B26FC2 /* Build configuration list for PBXNativeTarget "HYDExamAnki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A1DCA41CB79C3E00B26FC2 /* Debug */,
+				08A1DCA51CB79C3E00B26FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08A1DCA61CB79C3E00B26FC2 /* Build configuration list for PBXNativeTarget "HYDExamAnkiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A1DCA71CB79C3E00B26FC2 /* Debug */,
+				08A1DCA81CB79C3E00B26FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08A1DCA91CB79C3E00B26FC2 /* Build configuration list for PBXNativeTarget "HYDExamAnkiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A1DCAA1CB79C3E00B26FC2 /* Debug */,
+				08A1DCAB1CB79C3E00B26FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08A1DC6E1CB79C3D00B26FC2 /* Project object */;
+}
