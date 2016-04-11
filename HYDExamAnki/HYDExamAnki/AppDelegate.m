@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "XML_DataManager.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [XML_DataManager test];
     return YES;
 }
 
